@@ -377,9 +377,13 @@ footer {
 
 @media (max-width: 480px) {
     .header-content nav {
+        gap: 16px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 16px;
+    }
+
+    .header-content nav a {
+        margin: 0;
     }
 }
